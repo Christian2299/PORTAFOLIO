@@ -1,5 +1,6 @@
 .body{
-  background-color: rgb(136, 152, 165);  
+  background-color: rgb(156, 175, 33);
+
 }
 
 .nombre{
@@ -8,8 +9,21 @@
 
 .boton{
     text-align: center;
+    
 }
-.calen{
+
+.boton1{
+    color: black;
+    border: 2px solid white;
+    padding: 5px 10px;
+    text-decoration: none; /* Elimina el subrayado predeterminado en los enlaces */
+    display: inline-block; /* Hace que los botones se comporten como elementos en línea */
+  text-decoration: none;
+}
+.perfilADM{
   text-align: center;
-  color: rgb(154, 144, 144);
+}
+h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
