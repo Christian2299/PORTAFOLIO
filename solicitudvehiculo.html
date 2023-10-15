@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="solicitudvehiculo.css">
+  <title>Formulario Registro</title>
+</head>
+<body class="body">
+  <section class="form-register">
+    <h4>Formulario Registro de Vehiculo</h4>
+    <br>
+    <input class="controls" type="number" name="codigos" id="codigos" placeholder="codigo del vehiculo">
+    <input class="controls" type="text" name="placas" id="placas" placeholder="Placa del vehiculo">
+    <input class="controls" type="text" name="modelo" id="modelo" placeholder="Modelo del vehiculo">
+    <input class="controls" type="text" name="tipo" id="tipo" placeholder="Tipo de vehiculo">
+    <input class="controls" type="text" name="cilindrajes" id="cilindrajes" placeholder="Cilindraje del vehiculo">
+    <input class="controls" type="text" name="año" id="año" placeholder="Año del vehiculo">
+    <input class="controls" type="text" name="paisorigen" id="paisorigen" placeholder="Pais de fabricacion">
+    <input class="controls" type="text" name="kilometraje" id="kilometraje" placeholder="Kilometraje del vehiculo">
+    
+    <label for="comentario">Observaciones:</label>
+    <br>
+    <br>
+    <textarea id="comentario" name="comentario" rows="4" cols="40" placeholder="Escribe tus observaciones del vehiculo aquí..."></textarea>
+</body>
+    <br>
+    <br>
+    <br>
+    
+    <form action="perfil2.html" method="post">
+        <input class="botons" type="submit" name="accion" value="Registrar">
+    </form>
+    <form action="perfil2.html" method="post">
+    <input class="botons" type="submit" name="accion" value="Volver">
+
+  </section>
+
+</body>
+</html>

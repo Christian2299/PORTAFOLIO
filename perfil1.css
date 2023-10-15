@@ -1,0 +1,30 @@
+.body{
+  background-color: #CB6A1E;
+
+}
+
+.nombre{
+    color: black;
+}
+
+.boton{
+    text-align: center;
+    
+}
+
+.boton1{
+    color: black;
+    border: 2px solid white;
+    padding: 5px 10px;
+    text-decoration: none; /* Elimina el subrayado predeterminado en los enlaces */
+    display: inline-block; /* Hace que los botones se comporten como elementos en línea */
+  text-decoration: none;
+}
+.perfilADM{
+  text-align: center;
+}
+h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
